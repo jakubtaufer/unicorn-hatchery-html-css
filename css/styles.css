@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+main {
+    background-color: #E8E8E8;
+    padding-bottom: 1.6rem;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.4rem;
+    line-height: 1.1;
+    color: #060118;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #060118;
+    margin-bottom: 1.6rem;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #E8E8E8;
+    padding: 3rem;
+}
+
+.author {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.rectangle {
+    margin: 2rem;
+    padding: 1.6rem;
+    border: 1px solid orange;
+    border-radius: 4px;
+}
+
+.description {
+    line-height: 1.2;
+    margin-bottom: 1.6rem;
+}
+
+.desc_list {
+    line-height: 1.5;
+    margin-left: 4rem;
+}
+ 
+.ingredients {
+    width: 100%;
+    padding-right: 1.6rem;
+}
+
+.serving {
+    font-style: italic;
+    color: #555;
+    font-weight: 300;
+}
+
+.proc_list {
+    line-height: 3;
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.difficulty {
+    color: green; 
+}
+
+.list_num{
+    border: 1px solid orange;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.bottom {
+    margin-bottom: 2rem;
+}
+
+.imgs{
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    width: 30rem;
+    padding: 1rem;
+}

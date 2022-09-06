@@ -1,0 +1,10 @@
+@media (max-width: 40em) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .imgs {
+        flex-direction: column;
+        align-items: center;
+    }
+}
